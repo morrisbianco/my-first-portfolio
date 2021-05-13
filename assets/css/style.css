@@ -76,6 +76,11 @@ main section h2 {
     margin: 16px;
     margin-left: 40px;
     width: 600px;
+    height: 300px; 
+}
+
+.project1 img {
+    width: 600px;
     height: 300px;
 }
 
@@ -83,6 +88,11 @@ main section h2 {
     border: 3px solid black;
     margin: 16px;
     margin-left: 40px;
+    width: 600px;
+    height: 300px;
+}
+
+.pro2 img {
     width: 600px;
     height: 300px;
 }
