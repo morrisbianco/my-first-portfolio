@@ -6,6 +6,19 @@ header {
 
 }
 
+header h1 {
+
+}
+
+.hero-coding {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/CodingHero.jpg");
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 body {
 
 }
@@ -16,6 +29,10 @@ main {
 
 section {
 
+}
+
+.profile-pic {
+    
 }
 
 footer {
