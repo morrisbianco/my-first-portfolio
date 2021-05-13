@@ -1,8 +1,4 @@
-* {
-    background-color: whitesmoke;
-}
-
-nav {
+header nav {
     text-align: right;
     font-size: 24px;
     font-family: monospace;
@@ -10,14 +6,27 @@ nav {
     margin: 8px;
 }
 
-header {
-    text-align: center;
+header nav a {
+    color: black;
+    text-decoration: none;
+    padding: 8px;
 }
 
-header h1 {
+div h1 {
     font-size: 40px;
     font-family: monospace;
     margin-bottom: 40px;
+    text-align: center;
+}
+
+header nav a:hover {
+    color: green;
+    text-decoration: underline;
+    transition: all 0.4s ease-in-out;
+}
+
+body {
+    background-color: whitesmoke;
 }
 
 .hero-coding {
@@ -40,10 +49,11 @@ main {
 main section h2 {
     font-size: 24px;
     font-family: monospace;
+    text-align: center;
 }
 
 .sidebar {
-    border: 2px solid black;
+    border: 3px solid black;
     width: 525px;
     margin-left: 40px;
     margin-right: 40px;
@@ -77,6 +87,11 @@ main section h2 {
     margin-left: 40px;
     width: 600px;
     height: 300px; 
+    padding: 1px;
+}
+
+.project1:hover {
+    box-shadow: 0 0 40px green;
 }
 
 .project1 img {
@@ -90,11 +105,35 @@ main section h2 {
     margin-left: 40px;
     width: 600px;
     height: 300px;
+    padding: 1px;
+}
+
+.pro2:hover {
+    box-shadow: 0 0 40px green;
 }
 
 .pro2 img {
     width: 600px;
     height: 300px;
+}
+
+.work a {
+    display: block;
+    position: relative;
+}
+
+.work .overlay {
+    opacity: 0;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.work a:hover .overlay {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    opacity: 1;
 }
 
 footer {
@@ -109,7 +148,7 @@ footer h2 {
     justify-content: space-between;
     align-items: center;
     text-align: right;
-    font-size: 24px;
+    font-size: 40px;
     font-family: monospace;
 }
 
@@ -119,6 +158,19 @@ footer article {
     text-align: right;
     font-size: 24px;
     font-family: monospace;
+    margin-top: 16px;
+}
+
+footer article a {
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+}
+
+footer article a:hover {
+    color: green;
+    text-decoration: underline;
+    transition: all 0.4s ease-in-out;
 }
 
 footer p {
