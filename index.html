@@ -2,65 +2,110 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Andrew Bianco's Portfolio</title>
 </head>
 
-<header>
-    <nav>
-        <a href="#bio">About Me</a>
-        <a href="#work">My Work</a>
-        <a href="#contact">Contact Me</a>
-    </nav>
-</header>
 
-<body>
-    <div class="hero-coding"></div>
-    <div>
-        <h1>Hello! My Name is Andrew and I am a Web Developer!</h1>
+<body class="is-family-monospace">
+    <div class="hero" id="hero-coding">
+        <div class="hero-head">
+            <nav class="breadcrumb is-right is-large" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="#bio">About Me</a></li>
+                    <li><a href="#work">My Work</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
-    <main>
-        <section class="sidebar" id="bio">
-            <img src="./assets/images/profile-pic.jpeg" />
-            <h2>About Me:</h2>
-            <p> I am currently participating in the UNCC Coding Bootcamp to become a full stack web developer. Once I am
-                finished, I will be familiar with HTML, CSS, and Javascript, as well as APIs, Servers, and MERN. </p>
-            <p> I am from Mount Pleasant, NC, and I recently graduated from Belmont Abbey College with a Bachelors
-                degree in History. I became interested in coding after speaking to a friend who had already gone through
-                the UNC Coding Bootcamp. He mentioned that the Bootcamp was very helpful in helping him further his
-                career in web and app development. </p>
-        </section>
-        <section class="work" id="work">
-            <h2>Work:</h2>
-            <article class="project1">
-                <a href="https://morrisbianco.github.io/CSS-MiniProject/" target="_blank">
-                    <img src="./assets/images/CSS-Snippet.png">
-                    <div class="overlay"></div>
-                </a>
-            </article>
-            <article class="pro2">
-                <a href="https://morrisbianco.github.io/mini-project-01/" target="_blank">
-                    <img src="./assets/images/Spongebob.png"> 
-                    <div class="overlay"></div>
-                </a>
-            </article>
-        </section>
+    <div class="level">
+        <h1 class="title is-large level-item has-text-center p-5">Hello! My Name is Andrew and I am a Web Developer!
+        </h1>
+    </div>
+    <main class="container">
+        <div class="tile is-ancestor">
+            <div class="tile is-parent" id="bio">
+                <div class="tile is-child box">
+                    <figure class="image is-1by1">
+                        <img class="is-rounded" src="./assets/images/profile-pic.jpeg" alt="Placeholder image" />
+                    </figure>
+                    <p class="title">About Me:</p>
+                    <div class="content">
+                        <p> I am currently participating in the UNCC Coding Bootcamp to become a full stack web
+                            developer. Once I am
+                            finished, I will be familiar with HTML, CSS, and Javascript, as well as APIs, Servers, and
+                            MERN. </p>
+                        <p> I am from Mount Pleasant, NC, and I recently graduated from Belmont Abbey College with a
+                            Bachelors
+                            degree in History. I became interested in coding after speaking to a friend who had already
+                            gone through
+                            the UNC Coding Bootcamp. He mentioned that the Bootcamp was very helpful in helping him
+                            further his
+                            career in web and app development. </p>
+                    </div>
+                </div>
+                <div class="tile is-8 is-vertical is-parent" id="work">
+                    <div class="tile is-child box">
+                        <article class="p-5" id="project1">
+                            <p class="title is-small">Covid & Cats Project</p>
+                            <a class="image is-3by1" href="https://jdogcrane.github.io/covid-and-cats/" target="_blank">
+                                <img class="p-5" src="./assets/images/covid-cats.png">
+                                <div id="overlay"></div>
+                            </a>
+                            <a class="subtitle is-small" href="https://github.com/Jdogcrane/covid-and-cats"
+                                target="_blank">GitHub Repo</a>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <div class="tile is-child box">
+                            <article id="project1">
+                                <p class="title is-small">Mini Project: CSS Snippet Cheatsheet</p>
+                                <a class="image is-3by1" href="https://morrisbianco.github.io/CSS-MiniProject/"
+                                    target="_blank">
+                                    <img class="p-2" src="./assets/images/CSS-Snippet.png">
+                                    <div id="overlay"></div>
+                                </a>
+                                <a class="subtitle is-small" href="https://github.com/morrisbianco/CSS-MiniProject"
+                                    target="_blank">GitHub Repo</a>
+                            </article>
+                        </div>
+                        <div class="tile is-child box">
+                            <article id="pro2">
+                                <p class="title is-small">Work Day Scheduler</p>
+                                <a class="image is-3by1"
+                                    href="https://morrisbianco.github.io/work-day-schedule-project/" target="_blank">
+                                    <img class="p-2" src="./assets/images/work-day.png">
+                                    <div id="overlay"></div>
+                                </a>
+                                <a class="subtitle is-small"
+                                    href="https://github.com/morrisbianco/work-day-schedule-project"
+                                    target="_blank">GitHub Repo</a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+    <footer class="is-flex is-justify-content-space-between p-5">
+        <h2 id="contact">Contact Me:</h2>
+        <article class="breadcrumb" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="mailto:andrewbianco98gmail.com">My Email</a></li>
+                <li><a href="https://github.com/morrisbianco" target="_blank">My GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/morris-bianco-a7165820b/" target="_blank">My LinkedIn</a></li>
+            </ul>
+        </article>
+        <p>
+            &copy; 2021 Andrew Bianco
+        </p>
+    </footer>
 </body>
 
-<footer>
-    <h2 id="contact">Contact Me:</h2>
-    <article>
-        <a href="mailto:andrewbianco98gmail.com">My Email</a>
-        <a href="https://github.com/morrisbianco" target="_blank">My GitHub</a>
-        <a href="https://www.linkedin.com/in/morris-bianco-a7165820b/" target="_blank">My LinkedIn</a>
-    </article>
-    <p>
-        &copy; 2021 Andrew Bianco
-    </p>
-</footer>
 
 </html>
