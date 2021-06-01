@@ -26,6 +26,12 @@ In the footer are three more links. These links will also turn green and become 
 
 Here is a link to the deployed site: https://morrisbianco.github.io/my-first-portfolio/
 
+EDIT #1: 
+
+After the first project, I have updated my portfolio with a new framework and with my project now included in the work section. 
+
+<img src="./assets/images/portfolio2.png"/>
+
 [Credits](#Credits)
 
 I was inspired for this design by Kathryn McClintock's portfolio as found on https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/
