@@ -35,3 +35,6 @@ After the first project, I have updated my portfolio with a new framework and wi
 [Credits](#Credits)
 
 I was inspired for this design by Kathryn McClintock's portfolio as found on https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/
+
+
+Link to the live application: https://morrisbianco.github.io/my-first-portfolio/
