@@ -30,6 +30,10 @@ EDIT #1:
 
 After the first project, I have updated my portfolio with a new framework and with my project now included in the work section. 
 
+EDIT #2:
+
+After the second project, I have updated my portfolio with my project now including new projects in the work section.
+
 <img src="./assets/images/portfolio2.png"/>
 
 [Credits](#Credits)
